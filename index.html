@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanill javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li> 
+            <li><a href="">Home</a></li>
+        </ul>
+    </header>
+   
+    
+    <section>
+        </div>
+        <img src="flying.jpeg" id="bg" alt="">
+        <img src="moon.png" id="moon" alt="">
+        <img src="mountain.png" id="mountain" alt="">
+        <img src="road.png" id="road" alt="">
+        <h2 id="text">Deepak Kumar</h2>
+    </section>
+    <script type="text/javascript">
+    let bg =document.getElementById("bg");
+    let moon =document.getElementById("moon");
+    let mountain =document.getElementById("mountain");
+    let road =document.getElementById("road");
+    let text =document.getElementById("text");
+    window.addEventListener('scroll',function(){
+        var value=window.scrollY;
+        bg.style.top=value *0.5+'px';
+        moon.style.left=value *0.5+'px';
+        mountain.style.top=value *0.15+'px';
+        text.style.top=value *0.9+'px';
+    })
+
+    </script>
+    <h1>Aboout me...</h1>
+    <p id="terminater">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias saepe debitis odit repellendus adipisci provident ducimus vel velit. Deleniti reiciendis asperiores hic atque nesciunt, temporibus quas veritatis aliquid placeat sapiente odio voluptate iusto dolore aut voluptatem molestias adipisci obcaecati provident non accusantium corporis vero, quia ratione! Maiores qui soluta cupiditate explicabo animi. Iste aut architecto, velit omnis incidunt porro consectetur quam cum laboriosam! Nihil molestiae, quam amet perferendis beatae, obcaecati qui officiis maxime incidunt numquam expedita. Atque quae amet ullam quam, laboriosam consectetur ab reprehenderit cum quas praesentium iste, quasi quia! Deserunt reprehenderit, iure impedit ipsum recusandae delectus odit voluptatem corporis, laborum aperiam inventore laudantium facere blanditiis, velit itaque beatae aspernatur autem nesciunt error quisquam eligendi dolore architecto numquam. Illum, delectus nemo. Omnis itaque esse tempora ipsa laboriosam ea at mollitia rerum pariatur numquam? Ipsam veniam repellat voluptatibus, odit nobis quaerat cum harum dolore a quisquam ea omnis quis, aliquid quis maiores.
+    </p>
+    
+
+</body>
+</html>
